@@ -1,0 +1,49 @@
+/* Write your code here. */
+.bgcon {
+  font-family: Roboto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainhead {
+  font-size: 30px;
+  font-weight: bold;
+ 
+}
+.box {
+  display: flex;
+  flex-direction: row;
+
+  align-items: end;
+}
+
+@media (max-width: 767px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.text {
+  font-size: 15px;
+  color: #ffffff;
+}
+.small {
+  background-color: #fbbf24;
+  padding: 20px;
+  margin: 20px;
+}
+
+.medium {
+  background-color: #38bdf8;
+  padding: 50px;
+  margin: 20px;
+}
+.large {
+  background-color: #ec4899;
+  padding: 80px;
+  margin: 20px;
+}
